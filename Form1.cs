@@ -34,7 +34,6 @@ namespace GhostHearth
 
 		private void AlphaSlider_Scroll(object sender, EventArgs e)
 		{
-			//StatusLabel.Text = AlphaSlider.Value.ToString();
 			StatusLabel.Text = HSWindowManager.SetHSAlpha(AlphaSlider.Value);
 		}
 
